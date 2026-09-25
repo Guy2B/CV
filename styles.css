@@ -1444,3 +1444,28 @@ body:before{
 @media(max-width:680px){
   .signal-card-b{left:-1%;bottom:22%}
 }
+
+
+/* ===== V12: SPACETIME LAB FEATURE ===== */
+.venture-card-science{
+  border-color:rgba(63,105,126,.22);
+  background:linear-gradient(145deg,#ece8e1 0%,#e7e2da 100%);
+}
+.venture-card-science:before{
+  background:radial-gradient(460px circle at var(--mx) var(--my),rgba(82,144,170,.13),transparent 46%);
+}
+.venture-card-science .project-preview-real{
+  border-color:rgba(71,116,137,.22);
+  box-shadow:0 16px 38px rgba(16,24,32,.10);
+}
+.venture-card-science .project-preview-badge{
+  background:rgba(8,19,29,.90);
+  border-color:rgba(145,211,235,.22);
+}
+.venture-card-science .venture-link{
+  color:#163e52;
+}
+.venture-card-science:hover{
+  border-color:rgba(52,103,127,.42);
+  box-shadow:0 26px 64px rgba(24,55,70,.11);
+}
