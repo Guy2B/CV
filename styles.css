@@ -1388,3 +1388,59 @@ body:before{
   .project-proof-row{grid-template-columns:1fr;gap:4px}
   .venture-card h3{font-size:25px}
 }
+
+
+/* ===== FINAL V9: HERO CLEANUP ===== */
+/* One hero metric is enough: the 19+ figure is already stated in the lead copy.
+   Removing the second floating card restores the portrait hierarchy. */
+.portrait-label{
+  left:32px;
+  right:32px;
+  bottom:30px;
+  padding-top:15px;
+  border-top:1px solid rgba(255,255,255,.18);
+}
+.portrait-label span{
+  font-size:21px;
+  line-height:1.05;
+}
+.portrait-label small{
+  max-width:100%;
+  line-height:1.45;
+  letter-spacing:.075em;
+}
+.signal-card-a{
+  top:7%;
+  right:-4%;
+}
+
+@media (min-width:1280px){
+  .hero-visual{padding-bottom:8px}
+  .portrait-frame{box-shadow:0 38px 100px rgba(16,24,32,.16)}
+}
+
+@media(max-width:680px){
+  .portrait-label{left:22px;right:22px;bottom:22px;padding-top:12px}
+  .portrait-label span{font-size:18px}
+  .portrait-label small{font-size:9px}
+}
+
+
+/* ===== FINAL V10: RESTORE 19+ METRIC, POSITIONED HIGHER ===== */
+.signal-card-b{
+  left:-7%;
+  bottom:24%;
+  background:rgba(31,46,59,.96);
+  color:var(--white);
+  border-color:rgba(255,255,255,.12);
+}
+.signal-card-b span{color:#b9c1c8}
+.hero-visual:hover .signal-card-b{transform:translate(-4px,-3px)}
+
+@media(max-width:1180px){
+  .signal-card-b{left:-2%;bottom:23%}
+}
+
+@media(max-width:680px){
+  .signal-card-b{left:-1%;bottom:22%}
+}
