@@ -1,0 +1,14 @@
+GOOGLE CALENDAR BOOKING SETUP
+
+1. In Google Calendar, create an Appointment Schedule.
+2. Choose Google Meet as the video-conference option.
+3. Publish/share the booking page.
+4. Copy the PUBLIC booking-page URL (usually starts with https://calendar.app.google/).
+5. Open script.js.
+6. Replace:
+   const BOOKING_URL = '';
+   with:
+   const BOOKING_URL = 'YOUR_PUBLIC_GOOGLE_BOOKING_URL';
+
+Until that URL is added, the Book a meeting links open a Gmail meeting-request draft in the browser.
+The Send an email links also use Gmail Web, so Windows should not launch Outlook.

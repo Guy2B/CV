@@ -1,0 +1,25 @@
+GUY BEAHO — FINAL WEBSITE PACKAGE
+=================================
+
+Included:
+- Executive portfolio in EN / FR / DE (English default)
+- Authentic project screenshots for Lune Beauty, AI.G.B.r., literary work and the 3D simulation
+- Three executive case studies
+- Universal e-mail links
+- Controlled CV-request experience; no CV PDF is included publicly
+- Google Calendar / Google Meet booking
+- Social sharing card + favicon
+- Impressum + Datenschutz pages
+
+ONE ITEM MUST BE FILLED BEFORE PUBLICATION:
+- A complete serviceable postal address in impressum.html and privacy.html.
+- After choosing the final hosting provider, update the hosting paragraph in privacy.html.
+
+The package intentionally does not guess or reuse an unrelated address.
+
+Recommended final QA after deployment:
+- Replace any relative social-image URL with the final absolute domain URL if needed.
+- Test EN / FR / DE on desktop and mobile.
+- Test Request CV with Outlook/Apple Mail/Gmail.
+- Test Google booking.
+- Test all 4 project links.

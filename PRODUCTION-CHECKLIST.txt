@@ -1,0 +1,27 @@
+GUY BEAHO EXECUTIVE SITE — PRODUCTION CHECKLIST
+
+1. CV
+   - The CV PDF is intentionally NOT included in the public website package.
+   - "Request CV / Demander le CV / CV anfordern" opens a controlled request modal.
+   - No CV is sent automatically.
+   - The form stores nothing on the website: the visitor can use their configured email application (universal mailto) or Gmail.
+
+2. Google booking
+   - Active booking URL remains:
+     https://calendar.app.google/Pu8LTb2HCJGzw26Z6
+
+3. Legal pages (Germany)
+   - Add an Impressum and privacy page before production if legally required.
+   - A complete Impressum normally requires a serviceable postal address.
+   - No address was invented in this package.
+
+4. Social sharing
+   - assets/social-card.jpg is included.
+   - For best LinkedIn/WhatsApp rendering after the final domain is known,
+     change og:image/twitter:image to an absolute URL.
+
+5. Testing
+   - Test EN / FR / DE.
+   - Test Google Calendar booking.
+   - Test both CV-request options.
+   - Test mobile navigation and all four project links.
