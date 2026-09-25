@@ -31,6 +31,6 @@ ${L[2]}: ${e}
 
 ${L[3]}:
 ${m||'—'}`;return{s,body}}
-function update(){const{s,body}=payload();document.getElementById('mailApp').href=`mailto:guybeaho@gmail.com?subject=${encodeURIComponent(s)}&body=${encodeURIComponent(body)}`;document.getElementById('gmail').href=`https://mail.google.com/mail/?view=cm&fs=1&to=guybeaho@gmail.com&su=${encodeURIComponent(s)}&body=${encodeURIComponent(body)}`;document.getElementById('outlook').href=`https://outlook.office.com/mail/deeplink/compose?to=guybeaho@gmail.com&subject=${encodeURIComponent(s)}&body=${encodeURIComponent(body)}`;}
+function update(){const{s,body}=payload();document.getElementById('mailApp').href=`mailto:contact@guybeaho.com?subject=${encodeURIComponent(s)}&body=${encodeURIComponent(body)}`;document.getElementById('gmail').href=`https://mail.google.com/mail/?view=cm&fs=1&to=contact@guybeaho.com&su=${encodeURIComponent(s)}&body=${encodeURIComponent(body)}`;document.getElementById('outlook').href=`https://outlook.office.com/mail/deeplink/compose?to=contact@guybeaho.com&subject=${encodeURIComponent(s)}&body=${encodeURIComponent(body)}`;}
 document.querySelectorAll('input,textarea').forEach(el=>el.addEventListener('input',update));document.querySelectorAll('.actions a').forEach(a=>a.addEventListener('click',e=>{if(!document.getElementById('requestForm').reportValidity())e.preventDefault()}));let initialLang='en';try{const s=localStorage.getItem('gbLang');if(['en','fr','de'].includes(s))initialLang=s}catch(e){}setLang(initialLang);
 </script></body></html>

@@ -1,0 +1,20 @@
+FINAL PRODUCTION BUILD — guybeaho.com
+
+Upload the CONTENTS of this folder to the root of the GitHub repository CV.
+Important files included:
+- CNAME -> guybeaho.com (do not delete)
+- .nojekyll
+- robots.txt
+- sitemap.xml
+- 404.html
+
+Public contact address used everywhere:
+contact@guybeaho.com
+
+Google booking:
+https://calendar.app.google/Pu8LTb2HCJGzw26Z6
+
+Literary project:
+https://guy2b.github.io/D2L/
+
+Before public launch, complete the postal-address placeholders in impressum.html and privacy.html.
