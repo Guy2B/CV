@@ -1,0 +1,23 @@
+GOOGLE ANALYTICS 4 — V13
+
+Measurement ID: G-2Z6BSHCB9F
+
+Implementation:
+- Google Analytics loads only after explicit visitor consent.
+- If "Essential only" is selected, Google Analytics is not loaded.
+- The choice is stored locally in the browser and can be changed via "Privacy settings".
+- No form content, names, email addresses or message text are sent as custom analytics events.
+
+Tracked custom interactions include:
+- booking_click
+- request_cv_click
+- contact_click
+- linkedin_click
+- venture_click (Lune Beauty, LifeOS, Chroniques d'ailleurs, Spacetime Lab)
+- simulation_launch
+- language_change
+- contact_provider_click / cv_provider_click
+
+After deployment, verify in Google Analytics:
+Reports > Realtime
+Then open guybeaho.com, accept analytics, and navigate/click through the site.
