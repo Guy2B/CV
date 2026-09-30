@@ -30,9 +30,15 @@ footer a{color:white}
 <h1>Datenschutzerklärung</h1>
 <p class="lede">Transparenz über die Datenverarbeitung dieser statischen Website und der angebotenen Kontaktmöglichkeiten.</p>
 
+<div class="notice">
+<strong>Vor der Veröffentlichung noch zu ergänzen</strong>
+Die vollständige Postanschrift des Verantwortlichen sowie – nach Wahl des finalen Hostings – die Angaben zum Hosting-Anbieter.
+</div>
+
 <section>
 <h2>1. Verantwortlicher</h2>
 <p><strong>Guy Beaho</strong><br>
+[POSTANSCHRIFT VOR VERÖFFENTLICHUNG EINFÜGEN]<br>
 E-Mail: <a href="mailto:contact@guybeaho.com">contact@guybeaho.com</a></p>
 </section>
 
@@ -44,7 +50,8 @@ E-Mail: <a href="mailto:contact@guybeaho.com">contact@guybeaho.com</a></p>
 
 <section>
 <h2>3. Google Analytics und Einwilligung</h2>
-<p>Google Analytics wird auf dieser Website nur nach Ihrer ausdr&#252;cklichen Einwilligung aktiviert. Ihre Entscheidung k&#246;nnen Sie jederzeit &#252;ber die <button class="analytics-settings-link" data-analytics-settings>Datenschutz-Einstellungen</button> &#228;ndern.</p>
+<p>Diese Website verwendet Google Analytics ausschlieÃŸlich nach Ihrer ausdrÃ¼cklichen Einwilligung. Sie kÃ¶nnen Ihre Entscheidung jederzeit Ã¼ber die <button class="analytics-settings-link" data-analytics-settings>Datenschutz-Einstellungen</button> Ã¤ndern.</p>
+<p>Weitere Informationen zur Datenverarbeitung durch Google finden Sie in der <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">DatenschutzerklÃ¤rung von Google</a>.</p>
 </section>
 
 <section>
@@ -71,6 +78,7 @@ E-Mail: <a href="mailto:contact@guybeaho.com">contact@guybeaho.com</a></p>
 <section>
 <h2>8. Stand</h2>
 <p>Stand: September 2026.</p>
+<p class="meta">Diese Datenschutzerklärung beschreibt die technische Fassung der veröffentlichten Website. Die noch fehlende vollständige ladungsfähige Anschrift im Impressum ist separat zu ergänzen.</p>
 </section>
 </main>
 <footer><div class="shell">© Guy Beaho · <a href="impressum.html">Impressum</a> · <button class="analytics-settings-link" data-analytics-settings>Datenschutz-Einstellungen</button></div></footer>

@@ -30,16 +30,21 @@ footer a{color:white}
 <h1>Impressum</h1>
 <p class="lede">Anbieterkennzeichnung für diese persönliche und berufliche Website.</p>
 
+<div class="notice">
+<strong>Vor der Veröffentlichung noch zu ergänzen</strong>
+Die vollständige ladungsfähige Postanschrift des Websitebetreibers. Sie wurde nicht erfunden oder aus anderen Quellen übernommen.
+</div>
+
 <section>
 <h2>Angaben zum Anbieter</h2>
 <p><strong>Guy Beaho</strong><br>
-</p>
+[POSTANSCHRIFT VOR VERÖFFENTLICHUNG EINFÜGEN]</p>
 <p>E-Mail: <a href="mailto:contact@guybeaho.com">contact@guybeaho.com</a></p>
 </section>
 
 <section>
 <h2>Verantwortlich für den Inhalt</h2>
-<p>Guy Beaho<br></p>
+<p>Guy Beaho<br>[POSTANSCHRIFT VOR VERÖFFENTLICHUNG EINFÜGEN]</p>
 </section>
 
 <section>
