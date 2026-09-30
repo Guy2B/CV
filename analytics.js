@@ -107,6 +107,7 @@
     if (url.includes('contact.html') || url.startsWith('mailto:')) return ['contact_click', {}];
     if (url.includes('linkedin.com/in/guybeaho')) return ['linkedin_click', {}];
     if (url.includes('lunebeauty.de')) return ['venture_click', {venture:'lune_beauty'}];
+    if (url.includes('ai-lab.html')) return ['venture_click', {venture:'ai_system_demo'}];
     if (url.includes('lifeos.guybeaho.com')) return ['venture_click', {venture:'lifeos'}];
     if (url.includes('chroniques.guybeaho.com')) return ['venture_click', {venture:'chroniques_dailleurs'}];
     if (url.includes('spacetime-lab.html')) return ['venture_click', {venture:'spacetime_lab'}];
